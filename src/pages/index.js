@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic07 from '../assets/images/pic07.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -45,37 +45,35 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>About me</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>I can't think of a time when I haven't been passionate about reproductive health. At my core, I believe it is a basic human right to have access to all the information you need to make informed choices in your birthing space and beyond.</p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={pic07} alt="" /></span>
             </div>
           </section>
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Services</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <h3>Birth support</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <h3>Postpartum support</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <h3>Private classes</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
             </ul>
@@ -86,9 +84,9 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          {/* <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Experience</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
@@ -120,9 +118,9 @@ class Index extends React.Component {
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
-          </section>
+          </section> */}
 
-          <section id="cta" className="main special">
+          {/* <section id="cta" className="main special">
             <header className="major">
               <h2>Congue imperdiet</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
@@ -134,7 +132,7 @@ class Index extends React.Component {
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
-          </section>
+          </section> */}
 
         </div>
 
