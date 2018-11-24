@@ -19,10 +19,10 @@ const Nav = (props) => (
                 <Scroll type="id" element="second">
                     <a href="#">Second Section</a>
                 </Scroll>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <Scroll type="id" element="cta">
-                    <a href="#">Get Started</a>
+                    <a href="#">Testimonials</a>
                 </Scroll>
             </li> */}
         </Scrollspy>

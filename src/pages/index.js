@@ -45,7 +45,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>About me</h2>
+                  <h2>About</h2>
                 </header>
                 <p>My name is Jacqueline Chandler, and I can't think of a time when I haven't been passionate about reproductive health. At my core, I believe it is a basic human right to have access to all the information you need to make informed choices in your birthing space and beyond.</p>
                 <p>I am a certified birth and postpartum doula through Doula Trainings International (DTI), a newborn care specialist, childbirth educator and a member of the Central Texas Doula Association. I am also one of the co-founders of <a style={{lineWeight: 600}}href='https://www.lamamacare.com/' target='_blank'>La Mama Care</a>, which provides practical, holistic postpartum care kits to mamas navigating the 4th trimester.</p>
@@ -127,9 +127,8 @@ class Index extends React.Component {
 
           {/* <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Testimonials</h2>
+              <p>Jacqueline is great! <br/>- Sandie</p>
             </header>
             <footer className="major">
               <ul className="actions">
