@@ -36,6 +36,11 @@
             text-align: left;
         }
 
+        .p_amount {
+            font-weight: 500;
+            text-align: left;
+        }
+
 		@include breakpoint(medium) {
 			li {
 				width: calc(#{(100% / 2)} - #{_size(element-margin)});
