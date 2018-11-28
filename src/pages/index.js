@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic07 from '../assets/images/pic07.jpg'
@@ -48,7 +48,7 @@ class Index extends React.Component {
                   <h2>About</h2>
                 </header>
                 <p>My name is Jacqueline Chandler, and I can't think of a time when I haven't been passionate about reproductive health. At my core, I believe it is a basic human right to have access to all the information you need to make informed choices in your birthing space and beyond.</p>
-                <p>I am a certified birth and postpartum doula through Doula Trainings International (DTI), a newborn care specialist, childbirth educator and a member of the Central Texas Doula Association. I am also one of the co-founders of <a style={{lineWeight: 600}}href='https://www.lamamacare.com/' target='_blank'>La Mama Care</a>, which provides practical, holistic postpartum care kits to mamas navigating the 4th trimester.</p>
+                <p>I am a certified birth and postpartum doula through Doula Trainings International (DTI), a newborn care specialist, childbirth educator and a member of the Central Texas Doula Association. I am also one of the co-founders of <a style={{lineWeight: 600}}href='https://www.lamamacare.com/' target='_blank' rel="noopener noreferrer">La Mama Care</a>, which provides practical, holistic postpartum care kits to mamas navigating the 4th trimester.</p>
                 <p>I feel fortunate to be a part of such a wonderful birth community in Austin and look forward to supporting your family on life's most exciting journey. </p>
 
                 <ul className="actions">
@@ -128,13 +128,12 @@ class Index extends React.Component {
 
           {/* <section id="cta" className="main special">
             <header className="major">
-              <h2>Testimonials</h2>
-              <p>Jacqueline is great! <br/>- Sandie</p>
+              <h2>Visual Birth Plan</h2>
+              <p>Check out this sweet visual birth plan</p>
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/birth-plan" className="button special">Learn more</Link></li>
               </ul>
             </footer>
           </section> */}
