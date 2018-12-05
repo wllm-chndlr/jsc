@@ -33,7 +33,26 @@
 					border-bottom-left-radius: 0;
 				}
 			}
-		}
+        }
+        
+        > #circles {
+            padding: 5em;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-row-gap: 2em;
+            // grid-column-gap: 3em;
+            align-content: center;
+            justify-items: center;
+
+            > .circle {
+                border: 1px solid grey;
+                width: 10em;
+                height: 10em;
+                justify-self: center;
+                align-self: center;
+
+            }
+        }
 
 		@include breakpoint(large) {
 			> .main {
