@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Jacqueline Chandler",
-    author: "Jacqueline Chandler",
+    title: "BirthWorks ATX",
+    author: "Will Chandler",
     description: "Birth and postpartum services by Jacqueline Chandler"
   },
   plugins: [

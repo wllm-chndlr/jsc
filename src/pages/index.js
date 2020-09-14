@@ -68,7 +68,7 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-user-o"></span>
                 <h3>Birth support</h3>
                 <p className='p_service'>During our first prenatal visit, we'll talk through your birth preferences and postpartum plan. During our second visit, we'll walk through comfort measures and answer any questions to ensure you feel confident and prepared. Two weeks prior to - and after - your due date, I will be on-call 24/7 eagerly anticipating your phone call. I will meet you where you're laboring to provide support, and that one-on-one attention will continue until your baby is born. To ensure you, your birthing partner (if applicable) and baby are well taken care of, I will stay with you for up to two hours after the birth. I will then meet you and your family at home within the first week after the birth for a 1.5-hour postpartum visit.</p>
-                <p className='p_amount'>$1000</p>
+                <p className='p_amount'>$1250</p>
               </li>
               <li>
                 <span className="icon major style3 fa-heart"></span>
