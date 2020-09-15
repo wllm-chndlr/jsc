@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import Scrollspy from 'react-scrollspy'
 import Scroll from './Scroll'
