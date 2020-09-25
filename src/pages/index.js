@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
-import Layout from '../components/Layout'
+import Layoutz from '../components/Layoutz'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic07 from '../assets/images/pic07.jpg'
@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
 
     return (
-      <Layout>
+      <Layoutz>
         <Helmet title="Jacqueline Chandler" />
 
         <Header />
@@ -139,7 +139,7 @@ class Index extends React.Component {
 
         </div>
 
-      </Layout>
+      </Layoutz>
     )
   }
 }

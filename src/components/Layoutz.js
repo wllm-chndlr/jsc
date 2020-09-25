@@ -3,7 +3,7 @@ import '../assets/scss/main.scss'
 
 import Footer from './Footer'
 
-class Layout extends React.Component {
+class Layoutz extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -37,4 +37,4 @@ class Layout extends React.Component {
   }
 }
 
-export default Layout
+export default Layoutz
