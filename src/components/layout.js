@@ -3,7 +3,7 @@ import '../assets/scss/main.scss'
 
 import Footer from './Footer'
 
-class Template extends React.Component {
+class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -37,4 +37,4 @@ class Template extends React.Component {
   }
 }
 
-export default Template
+export default Layout
