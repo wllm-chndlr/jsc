@@ -47,8 +47,11 @@ class Index extends React.Component {
                   <h2>About</h2>
                 </header>
                 <p>My name is Jacqueline Chandler, and I can't think of a time when I haven't been passionate about reproductive health. At my core, I believe it is a basic human right to have access to all the information you need to make informed choices in your birthing space and beyond.</p>
-                <p>I am a certified birth and postpartum doula through Doula Trainings International (DTI), a newborn care specialist, childbirth educator and a member of the Central Texas Doula Association. I am also one of the co-founders of <a style={{lineWeight: 600}}href='https://www.lamamacare.com/' target='_blank' rel="noopener noreferrer">La Mama Care</a>, which provides practical, holistic postpartum care kits to mamas navigating the 4th trimester.</p>
-                <p>I feel fortunate to be a part of such a wonderful birth community in Austin and look forward to supporting your family on life's most exciting journey. </p>
+                <p>I am a certified birth and postpartum doula through Doula Trainings International (DTI), a newborn care specialist, childbirth educator and a member of the Central Texas Doula Association.</p>
+                  {/* I am also one of the co-founders of <a style={{lineWeight: 600}}href='https://www.lamamacare.com/' target='_blank' rel="noopener noreferrer">La Mama Care</a>, which provides practical, holistic postpartum care kits to mamas navigating the 4th trimester. */}
+                <p>I feel fortunate to be a part of the birth community and look forward to supporting your family on life's most exciting journey. </p>
+
+                <p>Please note that I am currently only providing services virtually. Please reach out for details.</p>
 
                 <ul className="actions">
                   {/* <li><Link to="/generic" className="button">Learn More</Link></li> */}
@@ -61,6 +64,7 @@ class Index extends React.Component {
           <section id="first" className="main special">
             <header className="major">
               <h2>Services</h2>
+              <h4>(all virtual at this time)</h4>
             </header>
             <ul className="features">
               <li>
