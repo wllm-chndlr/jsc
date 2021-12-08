@@ -70,19 +70,19 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style1 fa-user-o"></span>
                 <h3>Birth support</h3>
-                <p className='p_service'>During our first prenatal visit, we'll talk through your birth preferences and postpartum plan. During our second visit, we'll walk through comfort measures and answer any questions to ensure you feel confident and prepared. Two weeks prior to - and after - your due date, I will be on-call 24/7 eagerly anticipating your phone call. I will meet you where you're laboring to provide support, and that one-on-one attention will continue until your baby is born. To ensure you, your birthing partner (if applicable) and baby are well taken care of, I will stay with you for up to two hours after the birth. I will then meet you and your family at home within the first week after the birth for a 1.5-hour postpartum visit.</p>
+                <p className='p_service'>During our first prenatal visit, we'll talk through your birth preferences and postpartum plan. During our second visit, we'll walk through comfort measures and answer any questions to ensure you feel confident and prepared. Two weeks prior to - and after - your due date, I will be on-call 24/7 eagerly anticipating your phone call. I will provide virtual support and one-on-one attention until your baby is born (and for two hours afterward if requested). I will then touch base within the first week after the birth for a 1.5-hour virtual postpartum visit.</p>
                 <p className='p_amount'>$1250</p>
               </li>
-              <li>
+              {/* <li>
                 <span className="icon major style3 fa-heart"></span>
                 <h3>Postpartum support</h3>
                 <p className='p_service'>Hiring a postpartum doula may be one of the best decisions you can make for you and your family during this remarkable and exhausting time in your life. I will come to your home and after a calming check-in, we will talk through your goals and needs for the day. It may be that I look after baby while you rest and shower; or it could be that I assist you with breastfeeding, laundry, and light meal prep. This time is led by you and your needs and can be booked in 4-hour daytime shifts, or 8-hour overnight shifts. </p>
                 <p className='p_amount'>$35/hour</p>
-              </li>
+              </li> */}
               <li>
                 <span className="icon major style5 fa-cubes"></span>
                 <h3>Personalized classes</h3>
-                <p className='p_service'>Having a hard time finding childbirth education and newborn care classes that fit your busy schedule? I offer private sessions on each topic (separately) in the comfort of your home. We'll talk about all things baby and birth and answer all your questions in these fun, interactive sessions.</p>
+                <p className='p_service'>Having a hard time finding childbirth education and newborn care classes that fit your busy schedule? I offer private sessions on each topic (separately). We'll talk about all things baby and birth and answer all your questions in these fun, interactive sessions.</p>
                 <p className='p_amount'>Prices vary. Contact me for more info.</p>
               </li>
             </ul>
