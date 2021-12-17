@@ -8,25 +8,15 @@ const Nav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
         <Scrollspy items={ ['intro', 'first', 'second', 'cta'] } currentClassName="is-active" offset={-300}>
             <li>
-                <Scroll type="id" element="intro">
+                <Scroll type="id" element="about">
                     <a href="#">About</a>
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="first">
+                <Scroll type="id" element="services">
                     <a href="#">Services</a>
                 </Scroll>
             </li>
-            {/* <li>
-                <Scroll type="id" element="second">
-                    <a href="#">Second Section</a>
-                </Scroll>
-            </li> */}
-            {/* <li>
-                <Scroll type="id" element="cta">
-                    <a href="#">Testimonials</a>
-                </Scroll>
-            </li> */}
         </Scrollspy>
     </nav>
 )
